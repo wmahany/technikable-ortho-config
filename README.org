@@ -3,4 +3,8 @@
 #+startup: overview
 
 * README
-This repo is used for configuring the Technikable keyboard from Boardsource. This keyboard isn't available on their website any more, but it's a
+This repo is used for configuring the Technikable keyboard from Boardsource. This keyboard isn't available on their website any more, but it's a wireless 44 key ortho unibody choc board configured with ZMK.
+* Config
+ZMK uses GitHub actions to generate .u2f files that you then can drag and drop onto the keyboard when it's plugged into a computer and reset. The Technikable has a reset button on the back
+
+Just make the changes you want to the ~/technikable-ortho-config/config/technikable.keymap file and then push the changes to GitHub. Once the CI/CD pipeline is finished download the firmware and upload it to the keyboard when it's in the reset mode and plugged into the computer
