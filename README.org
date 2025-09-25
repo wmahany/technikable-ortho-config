@@ -1,0 +1,6 @@
+#+title: Readme
+#+description:
+#+startup: overview
+
+* README
+This repo is used for configuring the Technikable keyboard from Boardsource. This keyboard isn't available on their website any more, but it's a
